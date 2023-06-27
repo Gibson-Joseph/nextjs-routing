@@ -24,7 +24,7 @@ export default BlogComponent;
 
 // getServerSideProps
 export const getServerSideProps = async () => {
-  const res = await fetch("https://fakestoreapi.com/products?limit=4");
+  const res = await fetch("https://fakestoreapi.com/products?limit=5");
   const data = await res.json();
   console.log(data);
   return {

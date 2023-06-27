@@ -31,8 +31,8 @@ const Nav = () => {
             {/* In this scenario application reload */}
             <Link
               href={{
-                pathname: "/post/[id]",
-                query: { id: 77 },
+                pathname: "/post",
+                // query: { id: 77 },
               }}
               // shallow={true}
             >
